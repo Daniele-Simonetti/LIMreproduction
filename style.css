@@ -1,0 +1,101 @@
+body{
+	background-image: url(immagini/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+main{
+	text-align: left;
+	margin-left: 96px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+.contenitore{
+	height: 850px;
+	width: 1200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 3%;
+	text-align: center;
+
+}
+
+/* header */
+.logo{
+	width: 250px;
+	margin-top: 120px;
+	display: inline-block;
+}
+
+.titolo{
+	color: #66ff00;
+	margin: 0px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 30px;
+}
+
+/* nav */
+.input-row{
+	height: 35px;
+	background-color: #66ff00;
+	margin-top: 4px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+button[type="button"]{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 7%;
+	margin-top: 7px;
+}
+
+/* main */
+main > section{
+	margin-top: 40px;
+}
+
+input[tupe="checkbox"]{
+	color: white;
+}
+
+section > span{
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+section > div{
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	margin-top: 10px;
+}
+
+div.carica{
+	margin-top: 5px;
+}
+
+.LVLcaricaM{
+	height: 22px;
+	width: 350px;
+	background-color: #fbab60;
+	border-radius: 4px;
+}
+
+.LVLcaricaH{
+	background-color: #32CD32;
+	height: 22px;
+	width: 600px;
+	border-radius: 4px;
+}
+
+.LVLcaricaL{
+	height: 22px;
+	width: 150px;
+	background-color: #CD5C5C;
+	border-radius: 4px;
+}
